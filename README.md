@@ -1,0 +1,2 @@
+# verificare_indosat
+indosat
