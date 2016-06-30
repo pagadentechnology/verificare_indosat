@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/macbook/Desktop/Android Studio Repo Workspace/RCS-V-I/app/build/intermediates/exploded-aar/RCS-V-I/libraryAndroidQuickResponseCode/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b5b6d113e6a3005465a0752741faa1520fca0385">
+        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/RCS-V-I/app/build/intermediates/pre-dexed/debug/classes-f26cf77c323fb15d7fd3992ddfabe4557966d399.jar" />
+    </item>
+
+</items>

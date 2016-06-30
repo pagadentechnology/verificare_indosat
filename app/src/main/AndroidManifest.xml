@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.tech.astrid" >
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Splashscreen_Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="id.tech.astrid.MenuUtama_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.MenuUtama_WP"
+            android:theme="@style/ToolBarFullscreenStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.Login_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.Issue_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.UpdateBranding_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.INDOSAT_InputTradeIn"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.INDOSAT_GalleryUpload"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.INDOSAT_GalleryUpload_Standalone"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.INDOSAT_HistoryTradeIn"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.ACER_Splashscreen_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.CekProduk_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="id.tech.astrid.HistoryNotification_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.History_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.InfoToko_Activity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.InputPenjualanManual_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.InputPenjualanScan_Activity"
+            android:theme="@style/ToolBarStyle"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="id.tech.astrid.UploadImageDialog"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogHargaProduk"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogAbsen"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogPindahToko"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogFormInputProduk"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogFormInputProdukImei"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogFormPenjualanProduk"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogTambahFoto"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogTransfer"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogChooserInputStok"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogChooserInputPennjualan"
+            android:theme="@style/MyActivityDialogTheme"></activity>
+        <activity
+            android:name="id.tech.astrid.DialogLocationConfirmation"
+
+            android:theme="@style/MyActivityDialogTheme"></activity>
+
+        <activity
+            android:name="id.tech.astrid.Notif_Detail_Activity"
+            android:theme="@style/DialogTheme"></activity>
+
+        <activity android:name="id.tech.astrid.ScanAbsen_Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="id.tech.astrid.ScanIstirahat_Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="id.tech.astrid.ScanPindahToko_Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="id.tech.astrid.ScanInputProduk_Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="id.tech.astrid.ScanPenjualan_Activity"
+            android:screenOrientation="landscape"></activity>
+
+        <service android:name="id.tech.astrid.Notif_Service" >
+        </service>
+
+        <receiver android:name="id.tech.astrid.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="id.tech.astrid.NotifBroadcastReceiver" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
